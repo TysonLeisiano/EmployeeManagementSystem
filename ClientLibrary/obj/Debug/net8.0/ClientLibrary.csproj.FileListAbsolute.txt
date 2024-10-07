@@ -13,3 +13,4 @@ C:\Users\Abby\source\repos\EmployeeManagementSolution\ClientLibrary\bin\Debug\ne
 C:\Users\Abby\source\repos\EmployeeManagementSolution\ClientLibrary\bin\Debug\net8.0\BaseLibrary.pdb
 C:\Users\Abby\source\repos\EmployeeManagementSolution\ClientLibrary\obj\Debug\net8.0\ClientLibrary.csproj.AssemblyReference.cache
 C:\Users\Abby\source\repos\EmployeeManagementSolution\ClientLibrary\obj\Debug\net8.0\ClientLi.3D08BA28.Up2Date
+C:\Users\Abby\source\repos\EmployeeManagementSolution\ClientLibrary\obj\Debug\net8.0\ClientLibrary.sourcelink.json

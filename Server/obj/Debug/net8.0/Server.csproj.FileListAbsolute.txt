@@ -146,3 +146,4 @@ C:\Users\Abby\source\repos\EmployeeManagementSolution\Server\obj\Debug\net8.0\re
 C:\Users\Abby\source\repos\EmployeeManagementSolution\Server\obj\Debug\net8.0\Server.pdb
 C:\Users\Abby\source\repos\EmployeeManagementSolution\Server\obj\Debug\net8.0\Server.genruntimeconfig.cache
 C:\Users\Abby\source\repos\EmployeeManagementSolution\Server\obj\Debug\net8.0\ref\Server.dll
+C:\Users\Abby\source\repos\EmployeeManagementSolution\Server\obj\Debug\net8.0\Server.sourcelink.json

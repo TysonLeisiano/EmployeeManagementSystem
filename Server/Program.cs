@@ -52,20 +52,15 @@ builder.Services.AddAuthentication(options =>
 builder.Services.AddScoped<IUserAccount, UserAccountRepository>();
 builder.Services.AddCors(options =>
 {
-options.AddPolicy("AllowAll",
-    builder => builder.WithOrigins("https://localhost:7013; http://localhost:5250")
-    .AllowAnyMethod()
-    .AllowAnyHeader()
-    //.AllowAnyOrigin() //Added this line for debugging
-    .AllowCredentials());
-
-    // ; http://localhost:5250
-    // https://localhost:7100
+    options.AddPolicy("AllowBlazorWasm",
+        builder => builder.WithOrigins("https://localhost:7100", "http://localhost:5250")
+                          .AllowAnyMethod()
+                          .AllowAnyHeader()
+                          .AllowCredentials());
 });
+
 var app = builder.Build();
 
-
-// Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
@@ -73,15 +68,12 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-app.UseCors("AllowAll");
-//app.UseCors("AllowAllOrigins");
+app.UseCors("AllowBlazorWasm");
+
 app.UseAuthentication();
 app.UseAuthorization();
 
-//app.MapControllers();
-app.UseEndpoints(endpoints =>
-{
-    endpoints.MapControllers();
-});
+app.MapControllers();
 
 app.Run();
+

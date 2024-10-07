@@ -149,13 +149,13 @@ namespace ServerLibrary.Repositories.Implementations
 
             var userRole = await FindUserRole(user.Id);
             var roleName = await FindRoleName(userRole.RoleId);
-            string jwtToken = GenerateToken(user, roleName.Name);
+            string jwtToken = GenerateToken(user, roleName.Name!);
             string refreshToken = GenerateRefreshToken();
 
-            var updaterefreshToken = await appDbCOntext.RefreshTokenInfo.FirstOrDefaultAsync(_ => _.UserId == user.Id);
-            if (updaterefreshToken is null) return new LoginResponse(false, "referesh token could not be generated because user is not signed in");
+            var updateRefreshToken = await appDbCOntext.RefreshTokenInfo.FirstOrDefaultAsync(_ => _.UserId == user.Id);
+            if (updateRefreshToken is null) return new LoginResponse(false, "referesh token could not be generated because user is not signed in");
 
-            updaterefreshToken.Token = refreshToken;
+            updateRefreshToken.Token = refreshToken;
             await appDbCOntext.SaveChangesAsync();
             return new LoginResponse(true, "Token refreshed successfully", jwtToken, refreshToken);
 

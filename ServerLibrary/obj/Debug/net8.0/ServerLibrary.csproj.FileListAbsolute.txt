@@ -15,3 +15,4 @@ C:\Users\Abby\source\repos\EmployeeManagementSolution\ServerLibrary\obj\Debug\ne
 C:\Users\Abby\source\repos\EmployeeManagementSolution\ServerLibrary\obj\Debug\net8.0\ServerLibrary.pdb
 C:\Users\Abby\source\repos\EmployeeManagementSolution\ServerLibrary\obj\Debug\net8.0\ServerLibrary.genruntimeconfig.cache
 C:\Users\Abby\source\repos\EmployeeManagementSolution\ServerLibrary\obj\Debug\net8.0\ref\ServerLibrary.dll
+C:\Users\Abby\source\repos\EmployeeManagementSolution\ServerLibrary\obj\Debug\net8.0\ServerLibrary.sourcelink.json

@@ -1112,3 +1112,4 @@ C:\Users\Abby\source\repos\EmployeeManagementSolution\Client\obj\Debug\net8.0\co
 C:\Users\Abby\source\repos\EmployeeManagementSolution\Client\obj\Debug\net8.0\compressed\8n6z5wxofv.gz
 C:\Users\Abby\source\repos\EmployeeManagementSolution\Client\obj\Debug\net8.0\compressed\oejb9222hs.gz
 C:\Users\Abby\source\repos\EmployeeManagementSolution\Client\obj\Debug\net8.0\compressed\2f7n5iuu5i.gz
+C:\Users\Abby\source\repos\EmployeeManagementSolution\Client\obj\Debug\net8.0\Client.sourcelink.json

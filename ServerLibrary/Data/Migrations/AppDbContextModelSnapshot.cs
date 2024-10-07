@@ -41,7 +41,7 @@ namespace ServerLibrary.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("ApplicationUsers");
+                    b.ToTable("ApplicationUsers", (string)null);
                 });
 
             modelBuilder.Entity("BaseLibrary.Entities.Branch", b =>
@@ -57,7 +57,7 @@ namespace ServerLibrary.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Braches");
+                    b.ToTable("Braches", (string)null);
                 });
 
             modelBuilder.Entity("BaseLibrary.Entities.Department", b =>
@@ -73,7 +73,7 @@ namespace ServerLibrary.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Departments");
+                    b.ToTable("Departments", (string)null);
                 });
 
             modelBuilder.Entity("BaseLibrary.Entities.Employee", b =>
@@ -130,7 +130,7 @@ namespace ServerLibrary.Data.Migrations
 
                     b.HasIndex("TownId");
 
-                    b.ToTable("Employees");
+                    b.ToTable("Employees", (string)null);
                 });
 
             modelBuilder.Entity("BaseLibrary.Entities.GeneralDepartment", b =>
@@ -146,7 +146,7 @@ namespace ServerLibrary.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("GeneralDepartments");
+                    b.ToTable("GeneralDepartments", (string)null);
                 });
 
             modelBuilder.Entity("BaseLibrary.Entities.RefreshTokenInfo", b =>
@@ -165,7 +165,7 @@ namespace ServerLibrary.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("RefreshTokenInfo");
+                    b.ToTable("RefreshTokenInfo", (string)null);
                 });
 
             modelBuilder.Entity("BaseLibrary.Entities.SystemRoles", b =>
@@ -181,7 +181,7 @@ namespace ServerLibrary.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("SystemRoles");
+                    b.ToTable("SystemRoles", (string)null);
                 });
 
             modelBuilder.Entity("BaseLibrary.Entities.Town", b =>
@@ -197,7 +197,7 @@ namespace ServerLibrary.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("Towns");
+                    b.ToTable("Towns", (string)null);
                 });
 
             modelBuilder.Entity("BaseLibrary.Entities.UserRoles", b =>
@@ -216,7 +216,7 @@ namespace ServerLibrary.Data.Migrations
 
                     b.HasKey("Id");
 
-                    b.ToTable("UserRoles");
+                    b.ToTable("UserRoles", (string)null);
                 });
 
             modelBuilder.Entity("BaseLibrary.Entities.Employee", b =>

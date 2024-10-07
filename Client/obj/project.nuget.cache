@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "fGEI5Sm4mkk=",
+  "dgSpecHash": "AdnX9DmRcAs=",
   "success": true,
   "projectFilePath": "C:\\Users\\Abby\\source\\repos\\EmployeeManagementSolution\\Client\\Client.csproj",
   "expectedPackageFiles": [
@@ -46,8 +46,7 @@
     "C:\\Users\\Abby\\.nuget\\packages\\system.identitymodel.tokens.jwt\\8.1.0\\system.identitymodel.tokens.jwt.8.1.0.nupkg.sha512",
     "C:\\Users\\Abby\\.nuget\\packages\\system.io.pipelines\\8.0.0\\system.io.pipelines.8.0.0.nupkg.sha512",
     "C:\\Users\\Abby\\.nuget\\packages\\system.text.encodings.web\\8.0.0\\system.text.encodings.web.8.0.0.nupkg.sha512",
-    "C:\\Users\\Abby\\.nuget\\packages\\system.text.json\\8.0.0\\system.text.json.8.0.0.nupkg.sha512",
-    "C:\\Users\\Abby\\.nuget\\packages\\microsoft.netcore.app.runtime.mono.browser-wasm\\8.0.8\\microsoft.netcore.app.runtime.mono.browser-wasm.8.0.8.nupkg.sha512"
+    "C:\\Users\\Abby\\.nuget\\packages\\system.text.json\\8.0.0\\system.text.json.8.0.0.nupkg.sha512"
   ],
   "logs": []
 }
